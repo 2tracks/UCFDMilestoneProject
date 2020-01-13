@@ -2,11 +2,6 @@
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /*-------------Colors-----------------------------------*/
 :root {
   --main-bg-color: #5C5A5A;
@@ -24,13 +19,18 @@
 .bg-dark {
     background-color: #000!important;
 }
-/*-------------End Colors-----------------------------------*/
+/*-------------General--------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
     color: var(--main-text-color);
-    background-color: var(--main-bg-color);
 }
+/*-------------Navigation-----------------------------------*/
 button:focus {
     outline: 5px auto transparent;
 }
@@ -43,19 +43,100 @@ button:focus {
 a.navbar-brand{
     font-size: 1rem;
 }
-
+.img-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .img-gabiCoffee-nav{
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 80px;
     height: auto;
     border-radius: 50%;
     border: 2px solid var(--orange-text-color);
 }
 .text-love-coffee{
     color: var(--orange-text-color);
-    font-size: 0.9rem;
+    font-size: 0.6rem;
+}
+
+/*-------------Callout-----------------------------------*/
+
+.callout-container{
+    height: 100vh;
+
+    background: url('../img/bg_computer.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.callout-titel{
+    font-size: 1.875rem;
+    color: var(--orange-text-color);
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.callout-subtitel{
+    font-size: 1.25rem;
+    margin: 0 0.5rem 0.5rem 1rem;
+}
+
+.social-icons{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.social-icons ul{
+    list-style: none;
+}
+
+.fa-linkedin-square{
+    font-size: 2rem;
+    color: var(--main-text-color);
+    padding: 0.5rem; 
+}
+
+.fa-github{
+    font-size: 2rem;
+    color: var(--main-text-color);
+    padding: 0.5rem; 
+}
+
+.fa-codepen{
+    font-size: 2rem;
+    color: var(--main-text-color);
+    padding: 0.5rem; 
+}
+
+.fa-behance{
+    font-size: 2rem;
+    color: var(--main-text-color);
+    padding: 0.5rem; 
+}
+
+/*-------------Info-----------------------------------------*/
+
+.info-container{
+    padding: 1rem 1rem;
+    color: var(--main-bg-color);
+    background-color: rgba(247,147,30,.06);
 }
