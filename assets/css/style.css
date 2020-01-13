@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*-------------Colors-----------------------------------*/
 :root {
   --main-bg-color: #5C5A5A;
   --main-bg-text: rgba(196, 196, 196, .12);
@@ -16,8 +17,45 @@
   --blue-color: #2BBED9;
   --turquoise-color: #7FEBE7;
 }
+.orange-text-color{
+    color: var(--orange-text-color)!important;
+}
+
+.bg-dark {
+    background-color: #000!important;
+}
+/*-------------End Colors-----------------------------------*/
+
 body{
     font-family: 'Montserrat', sans-serif;
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
+}
+button:focus {
+    outline: 5px auto transparent;
+}
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+a.navbar-brand{
+    font-size: 1rem;
+}
+
+.img-gabiCoffee-nav{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--orange-text-color);
+}
+.text-love-coffee{
+    color: var(--orange-text-color);
+    font-size: 0.9rem;
 }
