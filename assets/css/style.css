@@ -182,3 +182,27 @@ a.navbar-brand{
    margin-left: auto;
    margin-right: auto;
 }
+/*-------------footer-container-----------------------------------------*/
+
+.footer-container{
+    background-color: var(--main-bg-color);
+}
+.footer-info{
+    color: var(--orange-text-color);
+}
+.loc-border-left{
+    border-left: 0.5px solid #F7931E;
+}
+
+.footer-info i{
+    font-size: 1.5rem;
+}
+.fa-compass, .fa-envelope{
+    color: var(--orange-text-color);
+}
+.fa-download{
+    color: #D92B39;
+}
+.text-red{
+    color: #D92B39;
+}
