@@ -101,7 +101,7 @@ a.navbar-brand{
 }
 
 .social-icons{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 2rem;
 }
 
@@ -131,6 +131,17 @@ a.navbar-brand{
     font-size: 2rem;
     color: var(--main-text-color);
     padding: 0.5rem; 
+}
+
+.button-container{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+.btn-getInTouch{
+    font-weight: bold;
+    background-color: var(--orange-text-color);
 }
 
 /*-------------Info-----------------------------------------*/
