@@ -9,6 +9,7 @@
   --main-bg-text: rgba(196, 196, 196, .12);
   --main-text-color: #ffffff;
   --orange-text-color: #F7931E;
+  --orange-text-color-hover: rgb(245, 118, 0);
   --red-text-color: #D92B39;
   --blue-color: #2BBED9;
   --turquoise-color: #7FEBE7;
@@ -188,9 +189,11 @@ a.navbar-brand{
     background-color: var(--main-bg-color);
 }
 .footer-info{
+    margin: 0 auto;
+    padding: 4rem!important;
     color: var(--orange-text-color);
 }
-.loc-border-left{
+.footer-border-left{
     border-left: 0.5px solid #F7931E;
 }
 
@@ -200,13 +203,47 @@ a.navbar-brand{
 .fa-compass, .fa-envelope{
     color: var(--orange-text-color);
 }
+.compass h4, .envelope h4 {
+    margin-bottom: 0;
+}
+.fa-envelope:hover{
+    color: var(--orange-text-color-hover);
+}
+.envelope h4 a {
+    color: var(--orange-text-color);
+    text-decoration: none;
+}
+.envelope h4 a:hover {
+    color: var(--orange-text-color-hover);
+    text-decoration: none;
+}
 .fa-download{
     color: #D92B39;
 }
-.text-red{
+.fa-download:hover{
+    color: rgb(163, 11, 24);
+}
+.download a{
+    font-weight: bold;
     color: #D92B39;
+    text-decoration: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.download a:hover{
+    color: rgb(163, 11, 24);
 }
 
+.footer-img-map{
+    width: 100%;
+    padding: 0!important;
+    margin: 0;
+}
+.footer-img-map img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
 
 .copyright{
     font-size: 0.75rem;
