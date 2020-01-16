@@ -19,9 +19,6 @@
     color: var(--orange-text-color)!important;
 }
 
-.bg-dark {
-    background-color: #000!important;
-}
 /*-------------General--------------------------------------*/
 *{
     margin: 0;
@@ -34,17 +31,9 @@ body{
     color: var(--main-text-color);
 }
 /*-------------Navigation-----------------------------------*/
-button:focus {
-    outline: 5px auto transparent;
-}
-.navbar{
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.25);
-}
-a.navbar-brand{
-    font-size: 1rem;
+
+.bg-transparent{
+    background-color: transparent!important;
 }
 .img-container{
     margin: 0;
@@ -137,6 +126,11 @@ a.navbar-brand{
     padding: 0.5rem; 
 }
 
+.fa-linkedin-square:hover, .fa-github:hover,
+.fa-codepen:hover, .fa-behance:hover {
+    color: #F7931E;
+}
+
 .button-container{
     display: flex;
     align-self: flex-end;
@@ -146,6 +140,7 @@ a.navbar-brand{
 .btn-getInTouch{
     font-weight: bold;
     background-color: var(--orange-text-color);
+    box-shadow: 3px 6px 10px #000;
 }
 
 /*-------------Info-----------------------------------------*/
@@ -162,7 +157,7 @@ a.navbar-brand{
 }
 .info-text p:before {
     content: '\201C';
-    font-family: 'Sanchez', serif;
+    font-family: 'Sanchez', sans-serif;
     position: absolute;
     top: 5rem;
     left: -1.2rem;
@@ -174,9 +169,23 @@ a.navbar-brand{
 /*-------------What can I do--------------------------------------------*/
 
 .do-container{
-    height: 100vh;
+    position: relative;
     background-color: var(--main-bg-color);
 }
+.do-watermark:before{
+    content: "CODE";
+    font-family: "Sanchez", sans-serif;
+    position: absolute;
+    color: rgba(253,253,253,0.1);
+    font-size:200px;
+    font-weight: bold;
+    top: 10rem;
+    left: -12rem;
+    transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    z-index: 99;
+}
+
 .do-title{
     color: var(--orange-text-color);
     text-shadow: 2px 2px 3px #000;
@@ -210,6 +219,10 @@ a.navbar-brand{
    width: 80%;
    margin-left: auto;
    margin-right: auto;
+}
+.social-container .fa-linkedin-square:hover, .social-container .fa-github:hover, 
+.social-container .fa-codepen:hover, .social-container .fa-behance:hover{
+    color: var(--orange-text-color-hover);
 }
 /*-------------footer-container-----------------------------------------*/
 
@@ -276,4 +289,22 @@ a.navbar-brand{
 .copyright{
     font-size: 0.75rem;
     background-color: var(--main-bg-color);
+}
+
+/*---------------------media queries-----------------------------*/
+
+@media only screen and (max-width: 576px){
+    .navbar-nav.ml-auto{
+        background-color: rgba(0,0,0,0.8);
+    }
+}
+
+
+@media only screen and (min-width: 576px){
+    .navbar-nav.ml-auto{
+        background-color: transparent;
+    }
+    .img-container{
+        display: none;
+    }
 }

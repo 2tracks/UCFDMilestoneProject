@@ -12,14 +12,14 @@
 <body>
 
     <!-------------------Navigation------------------------------------------------------->
-
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand orange-text-color" href="#">GDS</a>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-transparent fixed-top">
+        <a class="navbar-brand orange-text-color" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item text-center active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
@@ -32,17 +32,18 @@
                  <li class="nav-item text-center">
                     <a class="nav-link" href="#">How to reach me</a>
                 </li>
+                 <li class="nav-item text-center img-container">
+                     <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <img class="img-gabiCoffee-nav" src="assets/img/gabiCafe.jpg" alt="Portrait-photo">
+                            <h5 class="text-love-coffee">I love a good cup of coffee...</h5>
+                        </div>
+                     </div>
+                </li>
             </ul>
-            <div class="navbar-text img-container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <img class="img-gabiCoffee-nav" src="assets/img/gabiCafe.jpg" alt="Portrait-photo">
-                        <h5 class="text-love-coffee">I love a good cup of coffee...</h5>
-                    </div>
-                </div>
-            </div>
         </div>
     </nav>
+    
 
     <!-------------------End Navigation------------------------------------------------------->
     <!-------------------Callout------------------------------------------------------->
@@ -59,10 +60,10 @@
                 <div class="col-2">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
-                            <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/gabriela-disalvatore-bosshard"><i class="fa fa-linkedin-square"></i></a></li>
+                            <li><a href="https://github.com/2tracks"><i class="fa fa-github"></i></a></li>
+                            <li><a href="https://codepen.io/gabrielaDSB"><i class="fa fa-codepen"></i></a></li>
+                            <li><a href="https://behance.net/gabrielaDSB"><i class="fa fa-behance"></i></a></li>
                         </ul>
                     </div><!--/.social-icons-->
                 </div><!--/.col-2-->
@@ -86,14 +87,15 @@
     <!-------------------What can I do---------------------------------------------------------->
 
      <section class="container-fluid do-container">
-        <div class="row">
+        
+        <div class="row pt-5 do-watermark">
             <div class="col text-center">
                 <h2 Class="do-title">What can I do...</h2>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row p-4">
+            <div class="col-md-6 pb-4">
                 <h3>Full-stack</h3>
                 <p>I am a full-stack web developer and eager to handle all your inquiries.</p>
             </div>
@@ -103,8 +105,8 @@
                 I am a design-oriented web developer, with a keen eye for detail and precision. </p>
             </div>
         </div><!--/.row-->
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row p-4">
+            <div class="col-md-6 pb-4">
                 <h3>Experienced</h3>
                 <p>Writing clean and reliable code in HTML, CSS, Javascript and Python is most importend to me.</p>
             </div>
@@ -113,7 +115,7 @@
                 <p>Attentive and dependable. I’ll pay attention to your needs and make sure you are happy with my work</p>
             </div>
         </div><!--/.row-->
-
+        
     </section>
 
     <!-------------------Ends What can I do---------------------------------------------------------->
