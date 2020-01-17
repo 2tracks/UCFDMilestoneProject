@@ -298,6 +298,11 @@ body{
     font-size: 0.75rem;
     background-color: var(--main-bg-color);
 }
+/*---------------------work--------------------------------------*/
+
+.work-container{
+    height: 100vh;
+}
 
 /*---------------------media queries-----------------------------*/
 
@@ -338,3 +343,8 @@ body{
     }
 }
 
+@media screen and (min-width: 993px){
+    .social-container{
+        height: 30vh;
+    }
+}
