@@ -301,8 +301,89 @@ body{
 /*---------------------work--------------------------------------*/
 
 .work-container{
-    height: 100vh;
+    height: 35vh;
+    background-color: var(--main-bg-color);
 }
+
+/*---------------css image devider---------------------------------------*/
+.grey-img {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    position: relative;
+    display: inline-block;
+    width: 1500px;
+    height: 20px;
+    background: linear-gradient(transparent 10%, #000 90%);
+    
+    text-decoration: none;
+}
+.grey-img:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(to right bottom, #000 50%, transparent 50%);
+}
+
+.grey-img:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(to left bottom, #000 50%, transparent 50%);
+}
+
+.work-title{
+    margin-top: 5rem!important;
+}
+.work-h3{
+color: var(--orange-text-color);
+}
+.card-info-container{
+    background-color: var(--main-bg-color);
+}
+
+.card-container{
+    background-color: var(--main-bg-color);
+}
+
+.card{
+    background-color: var(--main-bg-color);
+}
+
+.card-body {
+    padding: 0;
+    background-color: var(--main-bg-color);
+}
+
+.list-group a{
+    text-decoration: none;
+}
+
+.list-group a i{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.list-group a:hover{
+    color: var(--orange-text-color);
+}
+
+.btn-project {
+    background-color: #c4c4c4;
+    color:#000;
+}
+
+.btn-github {
+    background-color: #000;
+    color:#fff;
+}
+
+
 
 /*---------------------media queries-----------------------------*/
 
