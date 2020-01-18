@@ -301,7 +301,7 @@ body{
 /*---------------------work--------------------------------------*/
 
 .work-container{
-    height: 35vh;
+
     background-color: var(--main-bg-color);
 }
 
@@ -382,8 +382,44 @@ color: var(--orange-text-color);
     background-color: #000;
     color:#fff;
 }
+/*---------------------contact-----------------------------------*/
 
+.form-container{
+    background-color: var(--main-bg-color);
+}
 
+.form-group {
+    margin-bottom: 0.2rem;
+}
+.form-group-topic{
+    margin-bottom: 1rem;
+}
+.form-control {
+    color: #eaeaea;
+    background-color: transparent;
+}
+.form-control::-webkit-input-placeholder {
+  color: #eaeaea;
+}
+.form-control:hover{
+    border: 1px solid var(--orange-text-color);
+}
+ .form-control:focus {
+     color:#eaeaea;
+    background-color: #c4c4c4;
+    border-color: var(--orange-text-color);
+    box-shadow: 0px 1px 1px rgba(246, 147, 30, 0.075) inset, 0px 0px 8px rgba(246, 147, 30, 0.5);
+    }
+
+.btn-submit{
+    width: 10rem;
+    background-color: var(--orange-text-color);
+    color: #eaeaea;
+}
+.btn-submit:hover{
+    background-color: #eaeaea;
+    color: var(--orange-text-color);
+}
 
 /*---------------------media queries-----------------------------*/
 
