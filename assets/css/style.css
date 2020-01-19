@@ -298,7 +298,6 @@ body{
 /*---------------------work--------------------------------------*/
 
 .work-container{
-
     background-color: var(--main-bg-color);
 }
 
@@ -380,7 +379,9 @@ color: var(--orange-text-color);
     color:#fff;
 }
 /*---------------------contact-----------------------------------*/
-
+.contact-container{
+    background-color: var(--main-bg-color);
+}
 .form-container{
     position: relative;
     background-color: var(--main-bg-color);
