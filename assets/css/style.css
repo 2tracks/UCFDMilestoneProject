@@ -160,7 +160,6 @@ body{
 /*-------------Info-----------------------------------------*/
 
 .info-container{
-    height: 50vh;
     color: var(--main-bg-color);
     background-color: rgba(247,147,30,.06);
 }
@@ -183,7 +182,6 @@ body{
 /*-------------What can I do--------------------------------------------*/
 
 .do-container{
-    height: 100vh;
     position: relative;
     background-color: var(--main-bg-color);
 }
