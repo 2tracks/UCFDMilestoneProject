@@ -491,39 +491,26 @@ color: var(--orange-text-color);
     }
 }
 
-
 @media only screen and (min-width: 576px){
     .navbar-nav.ml-auto{
         background-color: transparent;
     }
     .img-container{
         display: none;
-    }
-   
+    }  
 }
 
 @media screen and (min-width: 576px) and (max-width: 830px){
    .callout-titel{
        margin-top: 3rem;
    }
-
-
 }
 
 @media only screen and (min-width: 769px){
     .devider{
         display: none;
     }
-     .social-container{
-        height: 60vh;
-    }
     .do-container{
         height: 65vh;
-    }
-}
-
-@media screen and (min-width: 993px){
-    .social-container{
-        height: 30vh;
     }
 }
