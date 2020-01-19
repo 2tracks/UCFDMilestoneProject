@@ -209,7 +209,6 @@ body{
 /*-------------Social-container-----------------------------------------*/
 
 .social-container{
-    height: 100vh;
     color: var(--main-text-color);
     background-color: var(--black-bg-color);
 }
