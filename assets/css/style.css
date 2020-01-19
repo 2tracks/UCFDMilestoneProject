@@ -73,25 +73,11 @@ body{
 .callout-container{
     height: 100vh;
 
-    background: url('../img/bg_computer.jpg') no-repeat center center fixed;
+    background: url('../img/bg_computer-dark.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .callout-titel{
@@ -433,7 +419,9 @@ color: var(--orange-text-color);
 }
 
 /*---------------------about me----------------------------------*/
-
+.about-container{
+    background-color: var(--main-bg-color);
+}
 .aboutMe-container{
     background-color: var(--main-bg-color);
 }
