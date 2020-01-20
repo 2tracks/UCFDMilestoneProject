@@ -28,6 +28,7 @@ I included a screenshot in the misc folder called adobeXD-design.pdf
 - On the About Page you have a Bio with a short description and a Front End and Back End section to describe what I can do on both site's.
 - The Work Page is where all the projects are for employers to explore. It is empty at the moment so I left the GitHub button in the code with a hashtag to fill it in by the time I will have a project to display.
 - On the Contact Page is a responsive form to ask for information. At the moment this is pointing to http://formdump.codeinstitute.net for testing purpose.
+- I used a simple-cv.pdf in the footer from Codeinstitute until my own is ready to be published. 
 
 <br>
 
@@ -58,7 +59,7 @@ On [GitHub](https://github.com/) you can use `GitHub pages` by choosing settings
 ## Credits
 
 ### Content
-- I copied and modified text from [James Browning](https://jamesbr.uk/) and [Jeremy Hickmann](https://jeremyhickman.co.uk/).
+- I got inspired and modified text from [James Browning](https://jamesbr.uk/) and [Jeremy Hickmann](https://jeremyhickman.co.uk/).
 
 ### Media
 - The map-brighton photo was copied from [OpenStreetMap](https://www.openstreetmap.org/) which is a open source software and free to use.
