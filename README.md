@@ -10,7 +10,6 @@ My Resume website has four sites a landing, about, work and contact page.
 <br>
 
 ## UX
-<hr>
 
 I put my first idea on paper in form of a mockup but I quickly moved over to [Adobe XD](https://www.adobe.com/uk/products/xd.html?sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAvJXxBRCeARIsAMSkApokdEG1qLZ7AAelXbuk6Bx77_dvxmhqV1YGRG5SvEHNoULkb9UrjbsaAjVqEALw_wcB:G:s&s_kwcid=AL!3085!3!340667162876!e!!g!!adobe%20xd) to create a design.
 XD is ideal to create designs because you can create it as it would look like on the Website.
@@ -24,7 +23,6 @@ I included a screenshot in the misc folder called adobeXD-design.pdf
 <br>
 
 ## Features
-<hr>
 
 - The Landing Page provides a list of social media links and an overview.The Social section and the Footer section are on every site the same for easy access to information and a download CV link.
 - On the About Page you have a Bio with a short description and a Front End and Back End section to describe what I can do on both site's.
@@ -34,7 +32,6 @@ I included a screenshot in the misc folder called adobeXD-design.pdf
 <br>
 
 ## Technologies Used
-<hr>
 
 This Resume website is build with HTML and CSS without any custome Javascript.
 The Framework I used is [Bootstrap 4.4.1](https://getbootstrap.com/) to simplify the responsive behaviour in particular the responsive grid system
@@ -43,7 +40,6 @@ The Framework I used is [Bootstrap 4.4.1](https://getbootstrap.com/) to simplify
  <br>
 
 ## Testing
-<hr>
 <br>
 
 I tested the Resume Website with the Chrome Webdeveloper tools and in addition I pushed it to my Github repository and used GitHub Pages to view and test the website on my phone.
@@ -51,7 +47,6 @@ I tested the Resume Website with the Chrome Webdeveloper tools and in addition I
 <br>
 
 ## Deployment
-<hr>
 
 I developed the Resume website with [Gitpod](https://gitpod.io/workspaces/) which made the deployment to [GitHub](https://github.com) very easy.
 With [Gitpod](https://gitpod.io/workspaces/) you have to make a [GitHub](https://github.com) repository and you can deploy it by using `git push`.
@@ -60,8 +55,6 @@ On [GitHub](https://github.com/) you can use `GitHub pages` by choosing settings
 <br>
 
 ## Credits
-<hr>
-<br>
 
 ### Content
 - I copied and modified text from [James Browning](https://jamesbr.uk/) and [Jeremy Hickmann](https://jeremyhickman.co.uk/).
