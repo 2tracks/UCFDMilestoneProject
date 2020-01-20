@@ -369,6 +369,7 @@ color: var(--orange-text-color);
     background-color: var(--main-bg-color);
 }
 .form-container{
+    position: relative;
     background-color: var(--main-bg-color);
 }
 
