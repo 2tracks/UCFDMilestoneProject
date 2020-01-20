@@ -16,7 +16,7 @@ XD is ideal to create designs because you can create it as it would look like on
 If you would have a customer you could share your link to display them how it would look like and you 
 could to adjustments before you start to code.
 
-I included a link to my desing here [AdobeXD Design](https://xd.adobe.com/view/7c4d4b34-2d35-4f75-6c94-dc922dd6e609-0a7c/?hints=off)
+I included a link to my desing here [AdobeXD Design](https://xd.adobe.com/view/7c4d4b34-2d35-4f75-6c94-dc922dd6e609-0a7c/)
 
 I included a screenshot in the misc folder called adobeXD-design.pdf
 
@@ -27,7 +27,7 @@ I included a screenshot in the misc folder called adobeXD-design.pdf
 - The Landing Page provides a list of social media links and an overview.The Social section and the Footer section are on every site the same for easy access to information and a download CV link.
 - On the About Page you have a Bio with a short description and a Front End and Back End section to describe what I can do on both site's.
 - The Work Page is where all the projects are for employers to explore.
-- On the Contact Page is a responsive form to ask for information. At the moment this is pointing to http://formdump.codeinstitute.net.
+- On the Contact Page is a responsive form to ask for information. At the moment this is pointing to http://formdump.codeinstitute.net for testing purpose.
 
 <br>
 
@@ -43,6 +43,7 @@ The Framework I used is [Bootstrap 4.4.1](https://getbootstrap.com/) to simplify
 <br>
 
 I tested the Resume Website with the Chrome Webdeveloper tools and in addition I pushed it to my Github repository and used GitHub Pages to view and test the website on my phone.
+For the form on the contact page I used the \formdump.codeinstitute.net\ to make sure every field is correct.
 
 <br>
 
