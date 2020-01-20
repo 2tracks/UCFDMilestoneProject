@@ -67,7 +67,8 @@ On [GitHub](https://github.com/) you can use `GitHub pages` by choosing settings
 - Both photos the computer background and the portrait are my own pictures.
 
 ### Acknowledgements
-- I got a lot of inspiration for this project from [Brad Traversy](https://www.traversymedia.com/) for the design as well as for the code. Brad does a lot of free tutorials and he is one of ny favorite coder to follow.
+- I got a lot of inspiration for this project from [Brad Traversy](https://www.traversymedia.com/) for the design as well as for the code.
+ Brad does a lot of free tutorials and he is one of my favorite coder to follow.
 
 
 
