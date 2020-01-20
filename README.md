@@ -65,6 +65,7 @@ On [GitHub](https://github.com/) you can use `GitHub pages` by choosing settings
 - I made the comingSoon.png with [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html?gclid=Cj0KCQiAmZDxBRDIARIsABnkbYT8cFYFIIUMO4BND1jtosVnU_p2I8KecW6Yje0rlnF1nsb6JD8z1J4aAiU1EALw_wcB&sdid=88X75SKR&mv=search&ef_id=Cj0KCQiAmZDxBRDIARIsABnkbYT8cFYFIIUMO4BND1jtosVnU_p2I8KecW6Yje0rlnF1nsb6JD8z1J4aAiU1EALw_wcB:G:s&s_kwcid=AL!3085!3!340693275316!b!!g!!%2Billustrator%20%2Badobe) which is a great software to build vector graphics.
 - The sample-cv.pdf is from the [Codeinstitute](https://codeinstitute.net/) tutorials which is a awesome school to learn to code.
 - Both photos the computer background and the portrait are my own pictures.
+- I used StackOverflow for any coding questions.
 
 ### Acknowledgements
 - I got a lot of inspiration for this project from [Brad Traversy](https://www.traversymedia.com/) for the design as well as for the code.
