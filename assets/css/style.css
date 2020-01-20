@@ -152,7 +152,7 @@ body{
 .info-text p{
     position: relative;
     font-size: 1.2rem;
-    line-height: 1rem;   
+    line-height: 1.5rem;   
 }
 .info-text p:before {
     content: '\201C';
@@ -472,13 +472,13 @@ color: var(--orange-text-color);
 
 /*---------------------media queries-----------------------------*/
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 768px){
     .navbar-nav.ml-auto{
         background-color: rgba(0,0,0,0.8);
     }
 }
 
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 768px){
     .navbar-nav.ml-auto{
         background-color: transparent;
     }
@@ -487,7 +487,7 @@ color: var(--orange-text-color);
     }  
 }
 
-@media screen and (min-width: 576px) and (max-width: 830px){
+@media screen and (min-width: 768px) and (max-width: 830px){
    .callout-titel{
        margin-top: 3rem;
    }

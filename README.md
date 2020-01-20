@@ -24,9 +24,9 @@ I included a screenshot in the misc folder called adobeXD-design.pdf
 
 ## Features
 
-- The Landing Page provides a list of social media links and an overview.The Social section and the Footer section are on every site the same for easy access to information and a download CV link.
+- The Landing Page provides a list of social media links and a photo as a background an info boxes as overviews.The Social section and the Footer section are on every site the same for easy access to information and a download CV link.
 - On the About Page you have a Bio with a short description and a Front End and Back End section to describe what I can do on both site's.
-- The Work Page is where all the projects are for employers to explore.
+- The Work Page is where all the projects are for employers to explore. It is empty at the moment so I left the GitHub button in the code with a hashtag to fill it in by the time I will have a project to display.
 - On the Contact Page is a responsive form to ask for information. At the moment this is pointing to http://formdump.codeinstitute.net for testing purpose.
 
 <br>
@@ -35,7 +35,7 @@ I included a screenshot in the misc folder called adobeXD-design.pdf
 
 This Resume website is build with HTML and CSS without any custome Javascript.
 The Framework I used is [Bootstrap 4.4.1](https://getbootstrap.com/) to simplify the responsive behaviour in particular the responsive grid system
- and [Fontawesome](https://fontawesome.com/) for the icons.
+ and [Fontawesome](https://fontawesome.com/) for the icons. I used the CDN for better performance instead of a local file.
 
  <br>
 
@@ -49,7 +49,7 @@ For the form on the contact page I used the \formdump.codeinstitute.net\ to make
 
 ## Deployment
 
-I developed the Resume website with [Gitpod](https://gitpod.io/workspaces/) which made the deployment to [GitHub](https://github.com) very easy.
+I developed the Resume website on [Gitpod](https://gitpod.io/workspaces/) which made the deployment to [GitHub](https://github.com) very easy.
 With [Gitpod](https://gitpod.io/workspaces/) you have to make a [GitHub](https://github.com) repository and you can deploy it by using `git push`.
 On [GitHub](https://github.com/) you can use `GitHub pages` by choosing settings and then GitHub Pages and the Branch you would like to publish 
 
